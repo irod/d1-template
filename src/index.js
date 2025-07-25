@@ -22,7 +22,7 @@ const app = new Hono()
 // app.use(renderer)
 
 app.get('/', async (c) => {
-  const stmt = c.env.DB.prepare("SELECT * FROM comments LIMIT 1");
+  const stmt = c.env.DB.prepare("SELECT * FROM user LIMIT 1");
     const { results } = await stmt.all();
 
     // return new Response(renderHtml(JSON.stringify(results, null, 2)), {

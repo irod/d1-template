@@ -3,13 +3,11 @@
   "main": "src/index.js",
   "name": "d1-template",
   "upload_source_maps": true,
-  "d1_databases": [
-    {
+  "d1_databases": [{
       "binding": "DB",
-      "database_id": "3f0621f7-63cb-4653-87ab-f5c919256129",
-      "database_name": "d1-template-database"
-    }
-  ],
+      "database_name": "vertidrama",
+      "database_id": "165310f4-62b5-4d56-a3b5-e7c742166aed"
+  }],
   "observability": {
     "enabled": true
   }
